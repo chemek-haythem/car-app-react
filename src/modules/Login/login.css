@@ -1,0 +1,27 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .ant-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-form-item-label {
+    text-align: left !important;
+  }
+  
+  .ant-form-item-required:before {
+    display: none;
+  }
+  
+  .ant-btn {
+    width: 100%;
+  }
+  
